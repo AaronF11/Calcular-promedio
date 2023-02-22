@@ -71,6 +71,7 @@
             this.BtnWorker.TabIndex = 14;
             this.BtnWorker.Text = "Trabajador";
             this.BtnWorker.UseVisualStyleBackColor = false;
+            this.BtnWorker.Click += new System.EventHandler(this.BtnWorker_Click);
             // 
             // LblTittle
             // 
@@ -182,6 +183,7 @@
             this.BtnAverage.TabIndex = 2;
             this.BtnAverage.Text = "Promedio";
             this.BtnAverage.UseVisualStyleBackColor = false;
+            this.BtnAverage.Click += new System.EventHandler(this.BtnAverage_Click);
             // 
             // BtnReset
             // 
@@ -194,6 +196,7 @@
             this.BtnReset.TabIndex = 12;
             this.BtnReset.Text = "Reinicio";
             this.BtnReset.UseVisualStyleBackColor = false;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // BtnLeave
             // 
@@ -206,6 +209,7 @@
             this.BtnLeave.TabIndex = 13;
             this.BtnLeave.Text = "Salir";
             this.BtnLeave.UseVisualStyleBackColor = false;
+            this.BtnLeave.Click += new System.EventHandler(this.BtnLeave_Click);
             // 
             // BtnClose
             // 
@@ -217,6 +221,7 @@
             this.BtnClose.Size = new System.Drawing.Size(28, 28);
             this.BtnClose.TabIndex = 0;
             this.BtnClose.UseVisualStyleBackColor = true;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // BtnMin
             // 
@@ -228,6 +233,7 @@
             this.BtnMin.Size = new System.Drawing.Size(28, 28);
             this.BtnMin.TabIndex = 1;
             this.BtnMin.UseVisualStyleBackColor = true;
+            this.BtnMin.Click += new System.EventHandler(this.BtnMin_Click);
             // 
             // PnlTop
             // 

@@ -59,6 +59,7 @@
             this.BtnNote.TabIndex = 30;
             this.BtnNote.Text = "Nota";
             this.BtnNote.UseVisualStyleBackColor = false;
+            this.BtnNote.Click += new System.EventHandler(this.BtnNote_Click);
             // 
             // TxtRate
             // 
@@ -120,6 +121,7 @@
             this.BtnClose.Size = new System.Drawing.Size(28, 28);
             this.BtnClose.TabIndex = 0;
             this.BtnClose.UseVisualStyleBackColor = true;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // BtnLeave
             // 
@@ -132,6 +134,7 @@
             this.BtnLeave.TabIndex = 29;
             this.BtnLeave.Text = "Salir";
             this.BtnLeave.UseVisualStyleBackColor = false;
+            this.BtnLeave.Click += new System.EventHandler(this.BtnLeave_Click);
             // 
             // BtnReset
             // 
@@ -144,6 +147,7 @@
             this.BtnReset.TabIndex = 28;
             this.BtnReset.Text = "Reinicio";
             this.BtnReset.UseVisualStyleBackColor = false;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // BtnAverage
             // 
@@ -156,6 +160,7 @@
             this.BtnAverage.TabIndex = 18;
             this.BtnAverage.Text = "Promedio";
             this.BtnAverage.UseVisualStyleBackColor = false;
+            this.BtnAverage.Click += new System.EventHandler(this.BtnAverage_Click);
             // 
             // LblName
             // 
@@ -207,6 +212,7 @@
             this.BtnMin.Size = new System.Drawing.Size(28, 28);
             this.BtnMin.TabIndex = 1;
             this.BtnMin.UseVisualStyleBackColor = true;
+            this.BtnMin.Click += new System.EventHandler(this.BtnMin_Click);
             // 
             // PtbTop
             // 
@@ -240,7 +246,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmWorker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.PnlTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PtbTop)).EndInit();
             this.ResumeLayout(false);
